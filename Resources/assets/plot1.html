@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styleBC.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="plot1bg">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><strong>Latitude</strong></a>
+    <a class="navbar-brand" href="#"><strong class="lat-font">Latitude</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../../index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -45,8 +45,60 @@
     </div>
   </nav>
 
+
   <div class="container">
-    <h3>Latitude and Max Temperature</h3>
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <div class="box">
+              <div class="page-header">
+                <h1 class="title">Latitude and Max Temperature</h1>
+                <hr>
+              </div>
+              <div class="box">
+                <img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature" height="280"
+                  width="280" align="left">
+                <p>
+                  This graph focused on the potential link between latitude and maximum temperature.
+                  <br>
+                  <br>
+                  As shown below, the maximum temperature of each city shows a correlation that starts
+                  as a positive correlation at under -60 latitude and then changes to a negative correlation
+                  after 0 degrees latitude.
+                  <br>
+                  <br>
+                  This could mean that most of the cities selected through the google API on January 5th were
+                  having their winter.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+              <div class="page-header">
+                <h1 class="title">Visualizations</h1>
+                <hr>
+              </div>
+              <div class="box">
+                <a href="plot1.html"><img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature"
+                    height="160" width="160"></a>
+                <a href="plot2.html"><img src="../assets/visualization/humidity.png" alt="Latitude vs. Humidity"
+                    height="160" width="160"></a>
+                <a href="plot3.html"><img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness"
+                    height="160" width="160"></a>
+                <a href="plot4.html"><img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed"
+                    height="160" width="160"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h3>Latitude and Max Temperature</h3>
     <hr>
     <p>
       This graph focused on the potential link between latitude and maximum temperature.
@@ -67,7 +119,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

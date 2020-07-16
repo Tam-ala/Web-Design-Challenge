@@ -41,29 +41,63 @@ li.dropdown {
     display: block;
 }
 
-#bg-color {
-	background-color: hotpink;
-  }
+/* for home, plots & comparison pages */
+.lat-font {
+	font-size: xx-large;
+	color: white;
+	background-color: #2874A6;
+	padding: 16px;
+ }
 
-  /* .padpage{
-    padding: 0&;
-  } */
-
-/* .tealcolor{
-    background-color: rgb(62, 165, 165);
-    padding: 1%;
+.box {
+	padding: 10px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
 }
 
-.latfont{
-  color: white;
-  font-size: 28px;
-} */
+#homebg {
+	background-image: url("../visualization/homepage.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+ }
 
-/* h1 {
-  color: rgb(62, 165, 93);
-  font-family: 'Arial Black', 'Arial Narrow', Arial, sans-serif;
-  font-size: 35px;
-} */
+#plot1bg {
+	background-image: url("../visualization/maxtempbg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+ 
+#plot2bg {
+	background-image: url("../visualization/humidbg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#plot3bg {
+	background-image: url("../visualization/cloudbg3.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#plot4bg {
+	background-image: url("../visualization/windspeadbg_INDIGO.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#comparebg {
+	background-image: url("../visualization/comparisonbg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* end for home, plots, data & comparison pages */
 
 .control-grey{
   color: gray;
@@ -78,20 +112,6 @@ h3{
 	width: 100%;
 	height: auto;
   }
-
-/* .center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
-@media (max-width: 600px){
-  .center {
-      margin: auto;
-      width: 50%;
-      padding: 10px;
-  }
-} */
 
 /*style for table in the Data page*/
 @page
