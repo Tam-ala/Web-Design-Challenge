@@ -49,6 +49,13 @@ li.dropdown {
 	padding: 16px;
  }
 
+ .lat-font-humid {
+	font-size: xx-large;
+	color: white;
+	background-color: rgb(247, 105, 129);
+	padding: 16px;
+ }
+
 .box {
 	padding: 10px;
     background: white;
@@ -80,7 +87,7 @@ li.dropdown {
 	background-attachment: fixed;
 }
 #plot3bg {
-	background-image: url("../visualization/cloudbg3.jpg"); 
+	background-image: url("../visualization/cloudbg5.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

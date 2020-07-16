@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="plot3bg">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><strong class="lat-font">Latitude</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -45,23 +45,54 @@
     </div>
   </nav>
 
-  <div class="container">
-    <h3>Latitude and Cloudiness</h3>
-    <hr>
-    <p>
-      This graph focused on the potential link between latitude and cloudiness.
-      <br>
-      <br>
-      As shown below, there is no correlation between latitdue and cloudiness.
-      The cluster of cities can be seen on various section of this graph with the most
-      notible ones happening at the 0%, 79%, and 90% mark. All of the cities are also spread out
-      between -60 and 80 degrees latitude.
-    </p>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-        <a target="_blank" href="visualization/cloudiness.png">
-          <img src="visualization/cloudiness.png" alt="Cloudy Graph" class="responsive img-fluid">
-        </a>
+      <div class="col-sm-12 col-md-6">
+        <div class="box">
+          <div class="page-header">
+            <h3 class="title">Latitude and Cloudiness</h3>
+            <hr>
+          </div>
+          <div class="box">
+            <img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness" height="280" width="280"
+              align="left">
+            <p>
+              This graph focused on the potential link between latitude and cloudiness.
+              <br>
+              <br>
+              As shown below, there is no correlation between latitdue and cloudiness.
+              The cluster of cities can be seen on various section of this graph with the most
+              notible ones happening at the 0%, 79%, and 90% mark. All of the cities are also spread out
+              between -60 and 80 degrees latitude.
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="box">
+          <div class="page-header">
+            <h1 class="title">Visualizations</h1>
+            <hr>
+          </div>
+          <div class="box">
+            <a href="plot1.html"><img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature"
+                height="160" width="160"></a>
+            <a href="plot2.html"><img src="../assets/visualization/humidity.png" alt="Latitude vs. Humidity"
+                height="160" width="160"></a>
+            <a href="plot3.html"><img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness"
+                height="160" width="160"></a>
+            <a href="plot4.html"><img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed"
+                height="160" width="160"></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

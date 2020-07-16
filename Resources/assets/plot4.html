@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="plot4bg">
@@ -45,36 +45,77 @@
     </div>
   </nav>
 
-  <div class="container">
-    <h3>Latitude and Wind Speed</h3>
-    <hr>
-    <p>
-      This graph focused on the potential link between latitude and wind speed.
-      <br>
-      <br>
-      As shown below, the graph does not show a strong correlation between these two factors.
-      Most of the cities plotted were clusterd on the lower wind speeds no matter the latitude.
-      Some of the cities that were outliers can be seen on either end of the latitude spectrum
-      with the most extreame occuring at around the 44th degree mark.
-    </p>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12">
-        <a target="_blank" href="visualization/windSpeed.png">
-          <img src="visualization/windSpeed.png" alt="Wind Graph" class="responsive img-fluid">
-        </a>
+      <div class="col-sm-12 col-md-8">
+        <div class="box">
+          <div class="page-header">
+            <h3>Latitude and Wind Speed</h3>
+            <hr>
+            <div class="box">
+              <img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed" height="280" width="280"
+                align="left">
+              <p>
+                This graph focused on the potential link between latitude and and humidity.
+                <br>
+                <br>
+                As shown below, there seems to be no correlation between these two factors.
+                The cities are dispersed below the 100% humidity mark no matter
+                the latitude with teh most notible outlier belonging to cities with 0% humidity
+                after the 60 degree mark.
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <a target="_blank" href="visualization/windSpeed.png">
+                  <img src="visualization/windSpeed.png" alt="Wind Graph" class="responsive img-fluid">
+                </a>
+              </div>
+            </div> -->
+
+            <div class="col-md-4">
+              <div class="box">
+                <div class="page-header">
+                  <h1 class="title">Visualizations</h1>
+                  <hr>
+                </div>
+                <div class="box">
+                  <a href="plot1.html"><img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature"
+                      height="160" width="160"></a>
+                  <a href="plot2.html"><img src="../assets/visualization/humidity.png" alt="Latitude vs. Humidity"
+                      height="160" width="160"></a>
+                  <a href="plot3.html"><img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness"
+                      height="160" width="160"></a>
+                  <a href="plot4.html"><img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed"
+                      height="160" width="160"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
