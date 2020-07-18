@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
+<!-- BG Picture -->
 <body id="plot1bg">
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><strong class="lat-font-maxtemp">Latitude</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -18,6 +20,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- Navigation Contents -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -45,55 +48,56 @@
     </div>
   </nav>
 
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="box">
-              <div class="page-header">
-                <h1 class="title">Latitude and Max Temperature</h1>
-                <hr>
-              </div>
-              <div class="box">
-              <img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature" height="280" width="280"
-                align="left">
-              <p>
-                This graph focused on the potential link between latitude and maximum temperature.
-                <br>
-                <br>
-                As shown below, the maximum temperature of each city shows a correlation that starts
-                as a positive correlation at under -60 latitude and then changes to a negative correlation
-                after 0 degrees latitude.
-                <br>
-                <br>
-                This could mean that most of the cities selected through the google API on January 5th were
-                having their winter.
-              </p>
-              </div>
-            </div>
+<!-- Max Temp Analysis -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <div class="box">
+          <div class="page-header">
+            <h1 class="title">Latitude and Max Temperature</h1>
+            <hr>
           </div>
+          <div class="box">
+            <img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature" class="img-fluid"
+              align="left">
+            <p>
+              This graph focused on the potential link between latitude and maximum temperature.
+              <br>
+              <br>
+              As shown below, the maximum temperature of each city shows a correlation that starts
+              as a positive correlation at under -60 latitude and then changes to a negative correlation
+              after 0 degrees latitude.
+              <br>
+              <br>
+              This could mean that most of the cities selected through the google API on January 5th were
+              having their winter.
+            </p>
+          </div>
+        </div>
+      </div>
 
-          <div class="col-md-4">
-            <div class="box">
-              <div class="page-header">
-                <h1 class="title">Visualizations</h1>
-                <hr>
-              </div>
-              <div class="box">
-                <a href="plot1.html"><img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature"
-                    height="160" width="160"></a>
-                <a href="plot2.html"><img src="../assets/visualization/humidity.png" alt="Latitude vs. Humidity"
-                    height="160" width="160"></a>
-                <a href="plot3.html"><img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness"
-                    height="160" width="160"></a>
-                <a href="plot4.html"><img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed"
-                    height="160" width="160"></a>
-              </div>
-            </div>
+      <!-- Visual Box -->
+      <div class="col-sm-12 col-md-4">
+        <div class="box">
+          <div class="page-header">
+            <h1 class="title">Visualizations</h1>
+            <hr>
+          </div>
+          <div class="box">
+            <a href="plot1.html"><img src="../assets/visualization/maxtemp.png" alt="Latitude vs. Max Temperature"
+                height="160" width="160"></a>
+            <a href="plot2.html"><img src="../assets/visualization/humidity.png" alt="Latitude vs. Humidity"
+                height="160" width="160"></a>
+            <a href="plot3.html"><img src="../assets/visualization/cloudiness.png" alt="Latitude vs. Cloudiness"
+                height="160" width="160"></a>
+            <a href="plot4.html"><img src="../assets/visualization/windSpeed.png" alt="Latitude vs. Wind Speed"
+                height="160" width="160"></a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
 
   <!-- Bootstrap -->
