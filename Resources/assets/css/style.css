@@ -1,4 +1,5 @@
 
+/* navigation */
 .navbar-nav { 
     margin-left: auto; 
 } 
@@ -40,6 +41,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* end navigation */
 
 /* for home, plots & comparison pages */
 .lat-font {
@@ -49,21 +51,60 @@ li.dropdown {
 	padding: 16px;
  }
 
- .lat-font-humid {
+.lat-font-humid {
 	font-size: xx-large;
 	color: white;
 	background-color: rgb(247, 105, 129);
+	padding: 16px;
+}
+
+.lat-font-maxtemp {
+	font-size: xx-large;
+	color: white;
+	background-color: #1f740e;
+	padding: 16px;
+ }
+
+.lat-font-wind {
+	font-size: xx-large;
+	color: white;
+	background-color: #0b5f4d;
+	padding: 16px;
+}
+
+.lat-font-data {
+	font-size: xx-large;
+	color: white;
+	background-color: #3e90b1;
+	padding: 16px;
+}
+
+.lat-font-compare {
+	font-size: xx-large;
+	color: white;
+	background-color: #742b0e;
 	padding: 16px;
  }
 
 .box {
 	padding: 10px;
-    background: white;
+	background: white;
+	opacity: 92%;
+    margin-top:50px;
+    margin-left:3px;
+    margin-right:0px;
+    margin-bottom:10px;
+    align-content: center;
+}
+
+.box-table {
+	padding: 10px;
+	background: white;
+	opacity: 92%;
     margin-top:50px;
     margin-left:5px;
     margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
+    margin-bottom:1000px;
 }
 
 #homebg {
@@ -87,13 +128,13 @@ li.dropdown {
 	background-attachment: fixed;
 }
 #plot3bg {
-	background-image: url("../visualization/cloudbg5.jpg"); 
+	background-image: url("../visualization/cloudbg.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 #plot4bg {
-	background-image: url("../visualization/windspeadbg_INDIGO.jpg"); 
+	background-image: url("../visualization/windspeed.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -104,15 +145,17 @@ li.dropdown {
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+#databg{
+	background-image: url("../visualization/databg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 /* end for home, plots, data & comparison pages */
 
 .control-grey{
   color: gray;
-}
-
-/*For the comparison page <div class="pic">*/
-h3{
-  align-content: space-around;
 }
 
 .responsive {
@@ -120,7 +163,7 @@ h3{
 	height: auto;
   }
 
-/*style for table in the Data page*/
+/* for table in the Data page*/
 @page
 	{margin:1.00in 0.75in 1.00in 0.75in;
 	mso-header-margin:0.50in;
