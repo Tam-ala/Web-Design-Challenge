@@ -1,16 +1,14 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
 
 ![Images/landingResize.png](Images/landingResize.png)
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+For this homework I created a visualization dashboard website using visualizations I've created in a past assignment. Specifically, the plotting [weather data](Resources/cities.csv).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, I created individual pages for each plot and a means by which I can navigate between them. These pages will contain the visualizations and their corresponding explanations. I'll also have a landing page, a page where for comparison of all of the plots, and another page to view the data used to build them.
 
 ### Website Requirements
-
-For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
@@ -39,63 +37,6 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
-
-### Screenshots
-
-This section contains the screenshot requirements of each page that must be built, at varying screen widths. I had the liberty of making any changes outside of these requirements.
-
-#### Landing page
-
-Large screen:
-![Landing page large screen](Images/landing-lg.png)
-
-Small screen:
-![Landing page small screen](Images/landing-sm.png)
-￼
-
-#### Comparisons page
-
-Large screen:
-![comparison page large screen](Images/comparison-lg.png)
-
-Small screen:
-![comparison page small screen](Images/comparison-sm.png)
-
-#### Data page
-
-Large screen:
-![data page large screen](Images/data-lg.png)
-
-Small screen:
-![data page small screen](Images/data-sm.png)
-
-#### Visualization pages
-
-You'll build four of these, one for each visualization. Here's an example of one:
-
-Large screen:
-![visualize page large screen](Images/visualize-lg.png)
-
-Small screen:
-![visualize page small screen](Images/visualize-sm.png)
-
-#### Navigation menu
-
-Large screen:
-![nav menu large screen](Images/nav-lg.png)
-
-Small screen:
-![nav menu small screen](Images/nav-sm.png)
-
-### Copyright
+#### Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.
